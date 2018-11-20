@@ -5,7 +5,7 @@ import React, {
 
 
 class YouTubeDebugger extends Component {
-  constructor(params) {
+  constructor() {
     super()
     this.state = {
       errors: [],
