@@ -20,7 +20,7 @@ class YouTubeDebugger extends Component {
   }
 
   changeResolution = () => {
-    this.setState({
+    this.setState({ 
       settings: {
         bitrate: this.state.settings.bitrate,
         video: {
